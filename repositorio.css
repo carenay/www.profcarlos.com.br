@@ -1,0 +1,22 @@
+body {
+    color: #fff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.div1 {
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
