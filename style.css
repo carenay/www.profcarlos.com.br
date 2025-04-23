@@ -1,4 +1,4 @@
-*{
+{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -20,7 +20,8 @@ body {
     padding: 16px;
     align-items: center;
     gap: 10px;
-    
+    position: relative;
+    outline: 2px solid #FFD700 ;
 
 
 }
@@ -44,6 +45,7 @@ img {
 
 .div {
     text-align: center;
+    justify-content: center;
 }
 
 h1 {
@@ -62,47 +64,55 @@ h1 {
     color: blue;
 }
 form{
-    width: 900px;
+    width: 800px;
     border: solid 5px #fff;
+    box-sizing: ;
     height: 90vh;
     padding: 50px ;
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: 500px;
+   margin-left: 300px;
+   gap: 4px;
+   position: relative;
    
-  
-    
-
-
 }
+
 .barra-horizontal{
     background-color: #FFD700;
     height: 5px;
-    width: 530px;
-   
+    width: 370px;
+    
+       
 }
  .campo-input{
     display: flex;
     flex-direction: column;
-    gap:4px;
+    gap:5px;
+    position: relative;
+    width: 600px;
 
  }
-.lembrar{
-    display: flex;
-    gap: 5px;
+
+
   
    
-}
+
 
 button{
-   gap:5px;
-    place-items: center;
+
    
-   padding: 15px;
    align-self: center;
    border-radius: 50px;
    width: 200px;
-   background-color: blue;
+   background-color: rgb(245, 154, 19);
    position: relative;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   color: #fff;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 40px;
+   
+
 }
